@@ -67,7 +67,6 @@ CHART_TYPES = [
     "Scatter plot",
 ]
 
-# Page styling: we replace Gradio's colour variables with our palette.
 CSS = f"""
 :root, .dark, .light {{
     --body-background-fill: {BLACK};
